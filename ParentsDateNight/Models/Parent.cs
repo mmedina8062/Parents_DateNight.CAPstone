@@ -37,7 +37,7 @@ namespace ParentsDateNight.Models
         public int Miles { get; set; }
 
         // [ForeignKey("Sitters")]
-        public ICollection<Sitters> Sitters { get; set; }
+        public ICollection<Sitter> Sitters { get; set; }
 
         /*[ForeignKey("Date night Ideas")]
         public ICollection<Preference> Preferences { get; set; }*/
