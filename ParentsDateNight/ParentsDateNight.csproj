@@ -276,6 +276,7 @@
     <Content Include="Views\Sitters\Details.cshtml" />
     <Content Include="Views\Sitters\Edit.cshtml" />
     <Content Include="Views\Sitters\Index.cshtml" />
+    <Content Include="Views\Parent\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
