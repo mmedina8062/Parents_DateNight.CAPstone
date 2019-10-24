@@ -10,7 +10,7 @@ using System.Web.Http;
 using System.Web.Http.Description;
 using ParentsDateNight.Models;
 
-namespace ParentsDateNight.Controllers
+namespace ParentsDateNight.Controllers.PreferenceAPI
 {
     public class PreferencesController : ApiController
     {
