@@ -279,6 +279,7 @@
     <Content Include="Views\Parent\Index.cshtml" />
     <Content Include="Views\Parent\Edit.cshtml" />
     <Content Include="Views\Parent\Details.cshtml" />
+    <Content Include="Views\Parent\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
