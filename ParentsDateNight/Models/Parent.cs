@@ -30,10 +30,7 @@ namespace ParentsDateNight.Models
         public string ApplicationId { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
 
-        // [ForeignKey("Budget")]
         public int Budget { get; set; }
-
-        // [ForeignKey("Traveling Distance")]
         public int Miles { get; set; }
 
         // [ForeignKey("Sitters")]

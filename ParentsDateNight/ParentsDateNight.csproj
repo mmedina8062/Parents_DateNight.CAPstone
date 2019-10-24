@@ -183,11 +183,23 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ParentController.cs" />
+    <Compile Include="Controllers\PreferencesController.cs" />
     <Compile Include="Controllers\RoleController.cs" />
+    <Compile Include="Controllers\SitterController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910241617316_initialMigration.cs" />
+    <Compile Include="Migrations\201910241617316_initialMigration.Designer.cs">
+      <DependentUpon>201910241617316_initialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910241705521_addedForeignKeyApplicationToSitterModel.cs" />
+    <Compile Include="Migrations\201910241705521_addedForeignKeyApplicationToSitterModel.Designer.cs">
+      <DependentUpon>201910241705521_addedForeignKeyApplicationToSitterModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -255,9 +267,15 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Users\Index.cshtml" />
     <Content Include="Views\Role\Role.cshtml" />
+    <Content Include="Views\Sitters\Create.cshtml" />
+    <Content Include="Views\Sitters\Delete.cshtml" />
+    <Content Include="Views\Sitters\Details.cshtml" />
+    <Content Include="Views\Sitters\Edit.cshtml" />
+    <Content Include="Views\Sitters\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Parent\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -271,6 +289,14 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201910241617316_initialMigration.resx">
+      <DependentUpon>201910241617316_initialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910241705521_addedForeignKeyApplicationToSitterModel.resx">
+      <DependentUpon>201910241705521_addedForeignKeyApplicationToSitterModel.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
