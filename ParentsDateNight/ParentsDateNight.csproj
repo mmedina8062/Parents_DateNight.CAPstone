@@ -199,6 +199,10 @@
     <Compile Include="Migrations\201910241705521_addedForeignKeyApplicationToSitterModel.Designer.cs">
       <DependentUpon>201910241705521_addedForeignKeyApplicationToSitterModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910241836326_changedPropertySelectedPreferenceToJustPreferenceInPreferenceModel.cs" />
+    <Compile Include="Migrations\201910241836326_changedPropertySelectedPreferenceToJustPreferenceInPreferenceModel.Designer.cs">
+      <DependentUpon>201910241836326_changedPropertySelectedPreferenceToJustPreferenceInPreferenceModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -275,7 +279,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Parent\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -296,6 +299,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910241705521_addedForeignKeyApplicationToSitterModel.resx">
       <DependentUpon>201910241705521_addedForeignKeyApplicationToSitterModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910241836326_changedPropertySelectedPreferenceToJustPreferenceInPreferenceModel.resx">
+      <DependentUpon>201910241836326_changedPropertySelectedPreferenceToJustPreferenceInPreferenceModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -12,6 +12,6 @@ namespace ParentsDateNight.Models
         public int Id { get; set; }
 
         [Display(Name = "Choose Preferences")]
-        public string selectedPreference { get; set; }
+        public string Preferences { get; set; }
     }
 }
